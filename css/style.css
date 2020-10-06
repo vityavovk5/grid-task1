@@ -51,12 +51,14 @@ img {
 }
 .grid-container > div:hover {
     opacity: 1;
+    transition: all .4s ease-in;
 }
 .grid-container2 > div {
     opacity: 0.5;
 }
 .grid-container2 > div:hover {
     opacity: 1;
+    transition: all .4s ease-in;
 }
 #main {
     padding: 40px 0;
