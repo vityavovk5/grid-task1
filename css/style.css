@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "big big -small-1"
+      "big big -small-2"
+      "-long-1 -long-2 -long-3"
+      "-long-1 -long-2 -long-3";
+  }
+  
+  .-small-1 { grid-area: -small-1; }
+  
+  .-small-2 { grid-area: -small-2; }
+  
+  .-long-1 { grid-area: -long-1; }
+  
+  .-long-2 { grid-area: -long-2; }
+  
+  .-long-3 { grid-area: -long-3; }
+  
+  .big { grid-area: big; }
+  
