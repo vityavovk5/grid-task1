@@ -47,11 +47,14 @@ img {
     height: 100%;
 }
 .grid-container > div {
-    opacity: 0.7;
+    -moz-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+-webkit-transition: all 1s ease-out;
 }
 .grid-container > div:hover {
-    opacity: 1;
-    transition: all .4s ease-in;
+    -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -o-transform: scale(1.05);
 }
 .grid-container2 > div {
     opacity: 0.5;
